@@ -25,7 +25,6 @@ lista_marcas = data.sort_values('Marca')['Marca'].unique().tolist()
 st.title('Encuentra tu lavadora con la mejor relación calidad - precio')
 #st.header('Usa los filtros de tu izquierda para encontrar la lavadora que mejor se adapte a tus necesidades')
 
-#◘st.subheader('Usa los filtros de tu izquierda para encontrar la lavadora que mejor se adapte a tus necesidades')
 
 
 lista_kg = data['Kg'].unique().tolist()
